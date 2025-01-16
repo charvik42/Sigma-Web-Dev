@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            height: 10vh;
+            margin: auto;
+            background-color: aquamarine;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            font-size: 12px;
+        }
+        .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            /* height: 80vh; */
+            min-height: 80vh;
+            margin: 23px auto;
+            /* font-size: 18px; */
+            background-color: aquamarine;
+        }
+        .container > div{
+            font-size: 2em;
+            border: 2px solid red;
+            width: 50%;
+        }
+
+        .container > div > div{
+            border: 2px solid blue;
+            width: 50%;
+        }
+
+        .mycont{
+            box-sizing: border-box;
+            border: 2px solid black;
+            margin: 23px auto;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+            width: 80vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        This is a box
+    </div>
+    <div class="container">
+        <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium cum sunt similique ipsam. Modi nostrum totam nam facilis nulla, doloribus cupiditate harum accusamus facere quidem? Aut similique ab excepturi commodi voluptatem tempora id dolore molestiae officiis inventore iste placeat unde in neque nostrum veritatis suscipit, minima possimus voluptatibus facilis debitis ipsum odit nam quis? Sequi, ad.
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus facilis provident eius suscipit fugit, laboriosam dolorem ipsum quas pariatur tenetur minima nemo delectus!</div>
+        </div>
+        <!-- Expand this to see that this container will adjust its height. -->
+        lorem999 
+    </div>
+    <div class="mycont">
+        I am another container
+    </div>
+</body>
+</html>
