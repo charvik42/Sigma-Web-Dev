@@ -1,0 +1,1 @@
+//write a node.js program to clear the clutter inside a directory
