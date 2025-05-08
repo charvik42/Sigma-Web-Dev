@@ -1,0 +1,21 @@
+{
+  "name": "clone",
+  "version": "1.0.0",
+  "description": "This is a clone for my app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "clone",
+    "music",
+    "andy"
+  ],
+  "author": "andy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "slugify": "^1.6.6"
+  }
+}
